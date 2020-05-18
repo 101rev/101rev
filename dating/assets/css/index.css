@@ -193,6 +193,24 @@ img{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+.blue-cta .cta-link{
+    color: #0ec4ec;
+}
+.blue.cta .cta-button{
+    background: #0ec4ec;
+}
+.green-cta .cta-link{
+    color: rgb(0, 200, 117);
+}
+.green-cta .cta-button{
+    background: rgb(0, 200, 117);
+}
+.purple-cta .cta-link{
+    color: #5a6bd6;
+}
+.purple-cta .cta-button{
+    background-color: #5a6bd6;
+}
 @media (max-width: 800px) {
     .mobile-banners{
         display: block;
