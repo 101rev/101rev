@@ -206,10 +206,10 @@ img{
     background: rgb(0, 200, 117);
 }
 .purple-cta .cta-link{
-    color: #5a6bd6;
+    color: #3d4274;
 }
 .purple-cta .cta-button{
-    background-color: #5a6bd6;
+    background-color: #3d4274;
 }
 @media (max-width: 800px) {
     .mobile-banners{
