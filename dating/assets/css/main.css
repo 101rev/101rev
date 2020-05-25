@@ -8,7 +8,7 @@ a{
 img{
     max-width: 100%;
 }
-h1,h2,h3,p{
+h1,h2,h3,h4,p{
     margin: 0;
     padding: 0;
 }
@@ -178,6 +178,7 @@ header{
     color: #c9b674;
     font-size: 24px;
     font-weight: 700;
+    width: 20px;
 }
 .top-site-logo{
     width: 34px;
@@ -277,6 +278,9 @@ header{
     display: flex;
     flex-direction: column;
 }
+.site-feature-items span{
+    line-height: 18px;
+}
 .site-feature-item{
     color: #919191;
     font-size: 14px;
@@ -370,6 +374,7 @@ header{
     font-size: 72px;
     font-weight: 700;
     line-height: 60px;
+    padding-right: 20px;
 }
 .description-rating-block{
     width: 60%;
@@ -394,12 +399,10 @@ header{
     align-items: center;
     margin-bottom: 20px;
 }
-.main-product-rating{
-    border: 1px solid #e2e2e2;
-    border-radius: 5px;
-}
 .main-product-rating-content{
     padding: 35px 40px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
 }
 .rating-logo-name{
     display: flex;
@@ -451,4 +454,55 @@ header{
 }
 .slick-dots li{
     margin: 0;
+}
+.slide{
+    box-shadow: 0 30px 40px rgba(143, 138, 131, 0.4);
+}
+.short-overview-block{
+    margin-top: 90px;
+}
+.short-overview-block>h3{
+    color: #292929;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.short-overview-block>p{
+    font-weight: 400;
+    line-height: 30px;
+    color: #868686;
+}
+.pros-cons-item-text i{
+    color: #c9b674;
+    margin-right: 8px;
+}
+.pros-cons-item-text span{
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    display: block;
+}
+.pros-block, .cons-block{
+    padding: 30px 32px 25px 32px;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    flex-direction: column;
+}
+.pros-cons-block{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0 100px 0;
+}
+.pros-cons-title{
+    margin-bottom: 25px;
+}
+.pros-cons-item-text{
+    width: 280px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.override-padding{
+    padding-left: 10px;
 }
