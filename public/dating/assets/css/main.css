@@ -506,3 +506,56 @@ header{
 .override-padding{
     padding-left: 10px;
 }
+
+.scrolled-header{
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #ffffff;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.06);
+    display: none;
+}
+.scrolled-header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 14px;
+    margin-right: 20px;
+}
+.burger-line{
+    width: 20px;
+    height: 2px;
+    border-radius: 50%;
+    background: #111212;
+}
+.scrolled-header-menu-title{
+    display: flex;
+    align-items: center;
+}
+.scrolled-header-btn-logo{
+    display: flex;
+    align-items: center;
+}
+.scrolled-logo{
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+}
+.scrolled-header .visit-btn{
+    padding: 6px 40px;
+}
+.scrolled-header-menu-title .header-title{
+    color: #4a4949;
+    font-size: 16px;
+    font-weight: 500;
+}
+#current-site{
+    color: #292929;
+    font-weight: 600;
+}
