@@ -1,7 +1,7 @@
 
 window.addEventListener('scroll', function() {
     // document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-    // console.log(pageYOffset)
+    console.log(pageYOffset);
     var scrolledHeader = document.getElementById('scrolled-header');
     var scrolledLogo = document.getElementById('scrolled-logo')
     var currentSite = document.getElementById('current-site');
@@ -13,9 +13,24 @@ window.addEventListener('scroll', function() {
             scrolledLogo.innerHTML = '<img src="assets/images/zoosk-logo.png">'
             scrolledHeaderBtn.setAttribute('href', 'https://google.com');
         }
-        if(pageYOffset > 3400){
+        if(pageYOffset > 3400 && pageYOffset < 4900){
             currentSite.innerText = '2. EliteSingles'
             scrolledLogo.innerHTML = '<img src="assets/images/eliteSingles-logo.png">'
+            scrolledHeaderBtn.setAttribute('href', '#');
+        }
+        if(pageYOffset > 4900 && pageYOffset < 6400){
+            currentSite.innerText = '3. Match'
+            scrolledLogo.innerHTML = '<img src="assets/images/match-logo.png">'
+            scrolledHeaderBtn.setAttribute('href', '#');
+        }
+        if(pageYOffset > 6400 && pageYOffset < 7900){
+            currentSite.innerText = '4. SilverSingles'
+            scrolledLogo.innerHTML = '<img src="assets/images/silver-singels-logo.png">'
+            scrolledHeaderBtn.setAttribute('href', '#');
+        }
+        if(pageYOffset > 7900){
+            currentSite.innerText = '5. OurTime'
+            scrolledLogo.innerHTML = '<img src="assets/images/ourTime-logo.png">'
             scrolledHeaderBtn.setAttribute('href', '#');
         }
     }
