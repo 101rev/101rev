@@ -249,6 +249,7 @@ header{
     padding-left: 10px;
     display: flex;
     flex-direction: column;
+    margin-top: -3px;
 }
 .ranked-name{
     color: #292929;
@@ -259,6 +260,7 @@ header{
     font-size: 14px;
     font-weight: 400;
     color: #919191;
+    margin-top: -5px;
 }
 .visit-btn{
     padding: 10px 40px;
