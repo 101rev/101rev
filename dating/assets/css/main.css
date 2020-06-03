@@ -634,6 +634,9 @@ header{
 .blue-desc .link:hover, .blue-desc .share:hover{
     color: #00a8ff;
 }
+.blue-desc .short-overview-block p{
+    padding-bottom: 30px;
+}
 footer{
     background-color: #f9f9f9;
     padding: 60px 0;
