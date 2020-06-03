@@ -580,3 +580,88 @@ header{
 .slick-dots{
     bottom: -35px;
 }
+
+
+
+.blue-desc .main-product-rating{
+    margin-top: -325px;
+    width: 34%;
+}
+.blue-desc .banner-title{
+    width: 66%;
+    margin-bottom: -100px;
+}
+.blue-desc .banner-subtitle{
+    width: 34%;
+}
+.blue-desc .author-description{
+    margin-top: 100px;
+}
+.blue-desc .full-review-block{
+    margin-top: 80px;
+}
+.blue-desc .product-name{
+    font-size: 24px;
+    /*line-height: 150%;*/
+    line-height: 38px;
+}
+.blue-desc .site-feature-item{
+    color: #292929;
+}
+.blue-desc .visit-site-btn{
+    box-shadow: 0 10px 27px rgba(0, 168, 255, 0.47);
+    border-radius: 4px;
+    /*background-color: #dc1063;*/
+    background-image: linear-gradient(to right, #009cff 0%, #00a2ff 46%, #00a8ff 99%);
+}
+.blue-desc .description-rating-block .visit-site-btn{
+    width: 382px;
+    height: 59px;
+    margin: 60px auto;
+}
+.blue-desc .pros-cons-block{
+    margin: 60px auto;
+}
+.blue-desc .banner-title .banner-title-text {
+    width: 90%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.blue-desc .slick-dots li.slick-active button:before{
+    /*color: #d90863;*/
+    color: #00a8ff;
+}
+.blue-desc .link:hover, .blue-desc .share:hover{
+    color: #00a8ff;
+}
+footer{
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 155px;
+}
+.footer-text-content{
+    max-width: 780px;
+}
+.footer-links{
+    display: flex;
+    padding-bottom: 30px;
+}
+.footer-link{
+    color: #292929;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-right: 35px;
+}
+.footer-text{
+    color: #868686;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 35px;
+}
