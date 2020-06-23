@@ -211,6 +211,19 @@ img{
 .purple-cta .cta-button{
     background-color: #3d4274;
 }
+.container .main-title{
+    width: 85.2%;
+    margin: 45px auto 25px auto;
+    padding: 0;
+}
+.container .author-block{
+    width: 85.2%;
+    margin: 25px auto;
+}
+.container .banner{
+    margin: 40px auto;
+    display: block;
+}
 @media (max-width: 800px) {
     .mobile-banners{
         display: block;
