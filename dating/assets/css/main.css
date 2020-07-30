@@ -668,3 +668,19 @@ footer{
     font-weight: 400;
     padding-right: 35px;
 }
+
+.blue-theme .visit-btn{
+    background-color: #58c1e9;
+    background-image: linear-gradient(to right, #009cff 0%, #00a2ff 46%, #00a8ff 99%);
+}
+.blue-theme .visit-site-btn{
+    box-shadow: 0 10px 27px rgba(0, 168, 255, 0.47);
+    background-image: linear-gradient(to right, #009cff 0%, #00a2ff 46%, #00a8ff 99%);
+}
+.blue-theme .slick-dots li.slick-active button:before{
+    /*color: #d90863;*/
+    color: #00a8ff;
+}
+.blue-theme .link:hover, .blue-theme .share:hover{
+    color: #00a8ff;
+}
