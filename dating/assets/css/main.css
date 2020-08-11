@@ -685,8 +685,73 @@ footer{
 .blue-theme .link:hover, .blue-theme .share:hover{
     color: #00a8ff;
 }
-.mobile-burger, .mobile-sites-header, .mobile-site-item{
+.mobile-burger, .mobile-sites-header, .mobile-site-item, .mobile-site-full-review{
     display: none;
+}
+.mobile-full-review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-full-review .review-number{
+    font-size: 42px;
+    padding-right: 0;
+}
+.mobile-full-review .product-main-logo img{
+    max-height: inherit;
+}
+.mobile-full-review .product-main-logo{
+    max-width: 40%;
+    max-height: 30px;
+    padding-left: 20px;
+}
+.mobile-full-review-banner{
+    margin-top: 20px;
+    box-shadow: 0 30px 40px rgba(143, 138, 131, 0.4);
+}
+.mobile-full-review-banner img{
+    margin-bottom: -7px;
+}
+.mobile-full-review .product-name{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.mobile-site-full-review .main-short-descr{
+    font-size: 13px;
+    padding-top: 0;
+}
+.mobile-site-full-review .main-product-rating-content{
+    padding: 30px 0;
+    border: 0;
+}
+.mobile-site-full-review .site-feature-items img{
+    margin-left: -5px;
+}
+.mobile-site-full-review .short-overview-block{
+    margin-top: 30px;
+}
+.mobile-site-overview-bottom .visit-btn{
+    width: 58%;
+}
+.mobile-site-overview-bottom .mobile-site-logo img{
+    margin-bottom: -8px;
+}
+.mobile-site-overview-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 60px 0;
+}
+.mobile-site-overview-bottom .visit-btn{
+    display: flex;
+    justify-content: center;
+}
+.read-more-in-text{
+    color: #00a2ff;
+}
+.number-name-mobile{
+    display: flex;
+    justify-content: center;
 }
 @media(max-width: 1420px){
     .container{
@@ -695,11 +760,22 @@ footer{
 }
 @media(max-width: 700px){
     .header-top-links, .nav-container, .breadcrumb-share, .banner-subtitle,
-    .featured-articles, .table-site-item{
+    .featured-articles, .table-site-item, .main-product-rating-content,
+    .full-review-block, .sites-full-review{
         display: none;
     }
     .mobile-site-item{
         display: flex;
+    }
+    .full-review-title{
+        padding-bottom: 30px;
+        font-size: 36px;
+    }
+    .mobile-site-full-review, .main-product-rating-content{
+        display: block;
+    }
+    .main-product-rating{
+        width: 100%;
     }
     .scrolled-header{
         display: none!important;
