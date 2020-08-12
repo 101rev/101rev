@@ -785,8 +785,13 @@ footer{
         padding: 30px 0 30px 30px;
     }
     .scrolled-header .visit-btn{
-        padding: 10px 90px;
+        padding: 0;
         margin-right: 30px;
+        width: 70%;
+        height: 43px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .scrolled-header-btn-logo{
         position: fixed;
