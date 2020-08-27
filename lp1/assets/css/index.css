@@ -1,0 +1,201 @@
+body, h1, h2, h3, h4, h5{
+    margin: 0;
+}
+p, h2,h3{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5
+.top-banner{
+    position: relative;
+}
+.top-banner .logo{
+    position: absolute;
+    top: 38px;
+}
+.logo-container{
+    width: 1400px;
+    padding: 0 85px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+}
+.container{
+    width: 1400px;
+    /*padding: 0 85px;*/
+    margin: auto;
+    position: relative;
+}
+.logo{
+    width: 264px;
+}
+.main-content{
+    background: #ffffff;
+    border-radius: 25px;
+    max-width: 1229px;
+    margin: -200px auto 0 auto;
+    padding: 0 85px;
+}
+.main-title{
+    font-family: 'Poppins', sans-serif;
+    color: #111212;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    padding: 58px 0px 30px 0px;
+}
+
+.author-block {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(32, 33, 36, 0.5);
+    font-weight: 600;
+}
+.author-text{
+    color: #929292;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 12px;
+ }
+.author-text span{
+    color: #262b2e;
+}
+.author-image{
+    width: 53px;
+    height: 53px;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 40px;
+}
+.main-text{
+    color: #1b1c1d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.banner{
+    display: block;
+    margin: 73px 0;
+}
+.button{
+    box-shadow: 0 20px 38px rgba(65, 185, 114, 0.44);
+    border-radius: 8px;
+    background-color: #41b972;
+}
+.main-btn{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 95px;
+    text-transform: uppercase;
+    letter-spacing: 0.46px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.bottom-banner{
+    margin-bottom: 45px;
+}
+.gambling-container{
+    display: flex;
+    justify-content: center;
+}
+.gambling-item{
+    width: 235px;
+    height: 94px;
+    margin: 0 20px;
+}
+.age-available{
+    display: block;
+    width: 127px;
+    margin: 40px auto 100px auto;
+}
+.pre-footer{
+    background-color: #002744;
+    padding: 12px 10px 12px 15px;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    width: 204px;
+    height: 45px;
+}
+.pre-footer-text{
+    font-weight: 700;
+    width: 65%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.pre-footer-title{
+    font-size: 24px;
+}
+.pre-footer-small-text{
+    font-size: 8px;
+    line-height: 24px;
+}
+.pre-footer-btn{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    width: 176px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 114.36px;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+}
+footer{
+    background-color: #eef2fc;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 50px 0;
+}
+.footer-link{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.payment-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 61px;
+    height: 42px;
+    margin: 0 2px;
+}
+.footer-text{
+    color: #1b1c1d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 48px 0 86px 0;
+}
