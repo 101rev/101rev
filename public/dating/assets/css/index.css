@@ -224,7 +224,64 @@ img{
     margin: 40px auto;
     display: block;
 }
+.fixed-logo, .fixed-btn-container{
+    display: none;
+}
+.desktop-item{
+    display: block;
+}
+.mobile-item{
+    display: none;
+}
+
 @media (max-width: 800px) {
+    .desktop-item{
+        display: none;
+    }
+    .mobile-item{
+        display: block;
+    }
+    .mobile-header-fixed{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #ffffff;
+    }
+    .fixed-btn-container{
+        display: block;
+    }
+    .mobile-header-fixed .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-title.override-mobile-padding{
+        padding: 150px 20px 20px 20px;
+    }
+    .fixed-logo{
+        display: block;
+        width: 63px;
+        height: 63px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 5px 10px 5px 10px;
+    }
+    .main-button.fixed-btn{
+        padding: 20px;
+        width: 85.2%;
+        margin: 10px auto;
+    }
+    .fixed-btn-container{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+    }
+    .footer.mobile-override-footer-padding{
+        padding-bottom: 100px;
+    }
+
     .mobile-banners{
         display: block;
     }
