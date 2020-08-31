@@ -199,6 +199,9 @@ footer{
     margin: 0;
     padding: 48px 0 86px 0;
 }
+.mobile-content{
+    display: none;
+}
 
 @media (max-width: 1200px) {
     .container{
@@ -242,6 +245,14 @@ footer{
     .pre-footer-small-text {
         line-height: 12px;
         margin-bottom: 15px;
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    .desktop-content{
+        display: none;
+    }
+    .mobile-content{
         display: block;
     }
 }
