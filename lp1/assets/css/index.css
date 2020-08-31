@@ -50,6 +50,9 @@ h1,h2,h3,h4,h5
     padding: 58px 0px 30px 0px;
 }
 
+.button.pre-footer-btn.top-btn{
+    width: auto;
+}
 .author-block {
     display: flex;
     align-items: center;
@@ -57,6 +60,10 @@ h1,h2,h3,h4,h5
     font-family: 'Open Sans', sans-serif;
     color: rgba(32, 33, 36, 0.5);
     font-weight: 600;
+}
+.cta-link{
+    font-weight: 600;
+    color: #41b972;
 }
 .author-text{
     color: #929292;
