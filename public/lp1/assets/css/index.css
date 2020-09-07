@@ -115,6 +115,7 @@ h1,h2,h3,h4,h5
 }
 .bottom-banner{
     margin-bottom: 45px;
+    position: relative;
 }
 .gambling-container{
     display: flex;
@@ -266,9 +267,58 @@ footer{
         display: block;
     }
 }
+.banner-content{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+.relative-banner{
+    position: relative;
+    font-family: 'Poppins', sans-serif
+}
+.bottom-banner.banner{
+    margin: 0;
+}
+.hot-bonuses{
+    color: #ffe15d;
+    font-weight: 600;
+}
+.banner-bonus-title{
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+.relative-banner .banner-content{
+    width: 30%;
+}
+.relative-banner .button{
+    margin: 40px 0 0 0;
+    font-size: 22px;
+    line-height: 80px
+}
 @media (max-width: 900px) {
     .desktop-content{
         display: none;
+    }
+    .relative-banner .banner-content{
+        top: 10px;
+        left: 15px;
+        width: 40%;
+    }
+    .hot-bonuses{
+        font-size: 8px;
+    }
+    .banner-bonus-title{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .relative-banner .button {
+        margin: 12px 0 0 0;
+        font-size: 7px;
+        line-height: 25px;
+        border-radius: 5px;
+        width: 92%;
     }
     .mobile-content{
         display: block;
@@ -293,5 +343,17 @@ footer{
     }
     .pre-footer-text {
         width: 50%;
+    }
+}
+@media (max-width: 330px){
+    .relative-banner .button {
+        margin: 12px 0 0 0;
+        font-size: 6px;
+        line-height: 21px;
+        border-radius: 3px;
+        width: 92%;
+    }
+    .banner-bonus-title{
+        font-size: 9px;
     }
 }
