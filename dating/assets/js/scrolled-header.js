@@ -1,7 +1,4 @@
-
 window.addEventListener('scroll', function() {
-    // document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-    console.log(pageYOffset);
     var scrolledHeader = document.getElementById('scrolled-header');
     var scrolledLogo = document.getElementById('scrolled-logo')
     var currentSite = document.getElementById('current-site');
