@@ -3,6 +3,7 @@ window.addEventListener('scroll', function() {
     var scrolledLogo = document.getElementById('scrolled-logo');
     var currentSite = document.getElementById('current-site');
     var scrolledHeaderBtn = document.getElementById('scrolled-header-btn');
+
     if(pageYOffset > 100){
         scrolledHeader.style.display = "block";
         if(pageYOffset > 1000 && pageYOffset < 3200){
