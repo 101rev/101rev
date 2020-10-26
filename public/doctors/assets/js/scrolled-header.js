@@ -1,11 +1,10 @@
-
 window.addEventListener('scroll', function() {
     var scrolledHeader = document.getElementById('scrolled-header');
-    var scrolledLogo = document.getElementById('scrolled-logo')
+    var scrolledLogo = document.getElementById('scrolled-logo');
     var currentSite = document.getElementById('current-site');
     var scrolledHeaderBtn = document.getElementById('scrolled-header-btn');
     if(pageYOffset > 100){
-        scrolledHeader.style.display = "block"
+        scrolledHeader.style.display = "block";
         if(pageYOffset > 1000 && pageYOffset < 3200){
             currentSite.innerText = '1. HealthSapiens';
             scrolledLogo.innerHTML = '<img src="assets/images/doctor-logo-1.png">'
