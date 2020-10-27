@@ -1,0 +1,101 @@
+.main-page-banner{
+    margin-top: 35px;
+}
+.burger-top{
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.burger-top .burger-line{
+    background: #818181;
+    border-radius: unset;
+    width: 12px;
+}
+.header-top-links{
+    display: flex;
+    align-items: center;
+}
+.main-banner-content{
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    width: 52%;
+}
+.main-banner-text{
+    padding: 0 105px;
+    width: 65%;
+    margin: 15px auto 0 auto;
+}
+.main-banner-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.feature-articles-title.top-title{
+    margin: 20px 0;
+}
+.grey-line{
+    width: 100%;
+    height: 1px;
+    background: #e2e2e2;
+}
+.table-site-preview{
+    position: relative;
+    margin: 30px 0 50px 0;
+}
+.table-site-preview img{
+    /*margin-left: -30px;*/
+    /*margin-top: 30px;*/
+    /*width: 107.5%;*/
+    /*max-width: unset;*/
+}
+.table-site-preview-text-content{
+    display: flex;
+    width: 61%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.site-order-number{
+    font-size: 72px;
+    font-weight: 700;
+}
+.ranked-name-description{
+    justify-content: center;
+}
+.ranked-name{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.ranked-name-description {
+    margin-top: 7px;
+}
+.ranked-name-red{
+    color: #dc0d5f;
+    font-weight: 700;
+}
+.coming-soon{
+    opacity: 0.5;
+}
+.coming-soon:before{
+    content: "comming soon";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding: 6px 12px;
+    background: #c9b674;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.coming-soon .site-order-number{
+    color: #91919073;
+}
+.coming-soon .ranked-name-red{
+    color: #292929;
+}
