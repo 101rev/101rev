@@ -135,7 +135,7 @@ img{
 .age-available{
     display: block;
     width: 127px;
-    margin: 40px auto 100px auto;
+    /*margin: 40px auto 100px auto;*/
 }
 .pre-footer{
     background-color: #002744;
@@ -231,6 +231,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px 0;
 }
 @media (max-width: 1200px) {
     .container{
