@@ -227,7 +227,11 @@ footer{
 .footer-logo, .button.pre-footer-btn{
     margin: 0 12px;
 }
-
+.footer-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 1200px) {
     .container{
         width: 90%;
