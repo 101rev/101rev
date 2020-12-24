@@ -252,3 +252,76 @@ img.logoimg {
 		font-size: 17px;
 	}
 }
+
+.author-block {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(32, 33, 36, 0.5);
+    font-weight: 600;
+}
+.cta-link{
+    font-weight: 600;
+    color: #41b972;
+}
+.author-text{
+    color: #929292;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 12px;
+}
+.author-text span{
+    color: #262b2e;
+}
+.author-image{
+    width: 53px;
+    height: 53px;
+}
+
+footer{
+    background-color: #eef2fc;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 50px 0;
+}
+.footer-link{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.payment-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 61px;
+    height: 42px;
+    margin: 0 2px;
+}
+.footer-text{
+    color: #1b1c1d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 48px 0 80px 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+    }
+}
