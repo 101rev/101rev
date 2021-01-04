@@ -147,7 +147,7 @@ img{
 }
 .footer-logo{
     width: 204px;
-    height: 45px;
+    height: auto;
 }
 .pre-footer-text{
     font-weight: 700;
@@ -464,7 +464,7 @@ footer{
     }
     .footer-logo{
         width: 80px;
-        height: 20px;
+        height: auto;
     }
     .pre-footer{
         flex-direction: row;
