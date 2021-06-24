@@ -1,0 +1,47 @@
+@media only screen and (min-width: 900px) {
+  .container {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+  }
+  .main-img {
+    width: 100%;
+  }
+  header #menubtn {
+    top: 11px;
+  }
+  header .logo {
+    margin-top: 15px;
+    float: left;
+    margin: 15px 0px 0px 50px;
+  }
+  .art {
+      width: 49%;
+      display: inline-block;
+  }
+  .art .art-title {
+      min-height: 100px;
+  }
+  #menu {
+    left: -40%;
+    width: 40%;
+    background: #f7f7f7;
+  }
+  .scrl-br::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  .scrl-br::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f7f7f7;
+  }
+  .scrl-br::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ee4d22;
+    border: 4px solid #f7f7f7;
+  }
+  .face-share {
+    cursor: pointer;
+  }
+}

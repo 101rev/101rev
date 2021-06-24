@@ -1,0 +1,38 @@
+.smartbanner--ddr-lp{
+    position: fixed;
+}
+.smartbanner--ddr-lp .smartbanner__button{
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    z-index: 1;
+    display: block;
+    padding: 5px 11px 4px;
+    min-width: 10%;
+    border-radius: 5px;
+    background: #f3f3f3;
+    color: #1dba55;
+    border: solid 1px #2cd23b;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.smartbanner--ddr-lp .smartbanner__info__price{
+    margin-top: 6px;
+    font-size:12px;
+    font-weight: 600;  
+    color: #898d8e;
+}
+
+.smartbanner--ddr-lp .smartbanner__info__author{
+    height: 16px;
+    background: url(../../../images/rating-banner.png)no-repeat left;
+    background-size: 70%;
+}
+
+.smartbanner--ddr-lp .smartbanner__info__title{
+    font-size:14px;
+    font-weight: 600;
+}
